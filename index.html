@@ -1,0 +1,545 @@
+	<!DOCTYPE html>
+
+	<html>
+		<head>
+
+			<!-- Website Title & Description for Search Engine purposes -->
+			<title></title>
+			<meta name="description" content="">
+
+			<!-- Mobile viewport optimized -->
+			<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+			<!-- Bootstrap CSS -->
+			<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+			<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+			<!-- Custom CSS -->
+			<link href="includes/css/styles.css" rel="stylesheet">
+			<link rel="stylesheet" type="text/css"  href="https://fonts.googleapis.com/css?family=Monoton">
+			<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Krona+One" rel="stylesheet">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+			<link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
+
+			<!-- Include Modernizr in the head, before any other Javascript -->
+			<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+		</head>
+		<body>
+			<!-- Starts Navbar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="myNavbar">	<!-- for sticky navbar -->
+	   <div class="container-fluid">
+			 <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">		<!-- starts of navbar toggle button -->
+			 	<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>										<!-- endss of navbar toggle button -->
+			 <div class="navbar-header" id="navbarHeader">			<!-- starts of navbar header title -->
+			 	<a class="navbar-brand" href="./Portfolio.html">The Face</a>
+			</div>				<!-- ends of navbar header title -->
+				<div class="nav-collapse collapse navbar-responsive-collapse">	<!-- starts of navigation bar such as relation news etc -->
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-align-justify"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#"><span class="glyphicon glyphicon-user"></span>log-in</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-plus"></span>sign-up</a></li>
+								<li><a href="#"><span class="glyphicon glyphicon-briefcase"></span>database</a></li>
+								<li class="devider"><hr></li>
+								<li class="dropdown-header">cover Stories</li>
+								<li><a href="#">Featured</a></li>
+								<li><a href="#">Campaigns</a></li>
+								<li><a href="#">Editorials</a></li>
+								<li><a href="#">Lookbooks</a></li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form pull-right">
+						<input type="text" class="form-control" placeholder="Search" id="searchInput">
+						<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+					</form>
+					<ul class="nav navbar-nav pull-right">
+						<li class="dropdown">
+							<a data-options="is_hover:true;hover_delay:400;" href="#" class="dropdown-toggle" data-toggle="dropdown">HOME</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">news</a></li>
+								<li><a href="#">talent</a></li>
+								<li><a href="#moreInfo3">agencies</a></li>
+								<li class="devider"></li>
+								<li class=dropdown-header>ranking</li>
+								<li><a href="#">Trending</a></li>
+								<li><a href="#">legends</a></li>
+								<li><a href="#">runway</a></li>
+								<li><a href="#">social</a></li>
+								<li><a href="#">top newcomers</a></li>
+							</ul>
+						</li>
+						<li><a href="#">GALLERY</a></li>
+					</ul>
+		 		</div>											<!-- ends of navigation bar such as relation news etc -->
+	   	</div>
+		</nav>
+	<!-- End Navbar -->
+
+	<!-- starts Carousel -->
+	<div class="carousel slide" id="myCarousel">
+		<center><div class="container-fluid">
+			<!--Indicators -->
+			<ol class="carousel-indicators">
+				<li data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li class="active" data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item active" id="item1">
+						<img src="./images/Carousel_image4.jpg" alt="">
+					<div class="carousel-caption">
+						<h4>ESTABLISHING YOUR BRAND ON COLLEGE CAMPUSES</h4>
+						<a href="#" class="btn btn-default btn-normal">continue reading</a>
+							</div>		<!--Ends Carousel caption-->
+				</div>
+
+
+				<div class="item" id="item2">
+					<img src="./images/Carousel_image3.jpg" alt="">
+					<div class="carousel-caption">
+						<h4>BELIEVE IN THE BUSINESS OF YOUR DREAMS</h4>
+						<a href="#" class="btn btn-default btn-normal">continue reading</a>
+							</div>		<!--Ends Carousel caption-->
+				</div>
+
+
+				<div class="item" id="item3">
+						<img src="./images/Carousel_image1.jpg" alt="">
+					<div class="carousel-caption">
+						<h4>FRESH NEW FACES FOR ANY COMMERCIAL NEEDS</h4>
+						<a href="#" class="btn btn-default btn-normal">continue reading</a>
+						</div>		<!--Ends Carousel caption-->
+				</div>
+			</div>
+			<!-- control starts here-->
+			<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+			<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+		</div>
+	</center>
+	</div>
+	<!-- End Carousel -->
+	<div class="row" id="featureContainer">
+	<div class="container">
+		<div class="row FeaturesHeading">
+			<div class="col-12">
+				<h1>New faces</h1>
+				<h2>Discover the world best fashionable model</h2>
+				<h5>Looking for extraordinary clothing to emphasize your exquisite taste? We can help you with it. Exclusive shirts, skirts, jeans, t-shirts and other fashionable clothing specifically designed for all ages and tastes will definitely impress you.</h5>
+				<hr>
+				<h2>Female model</h2>
+				<hr>
+			</div>
+		</div>	<!-- end Feature Heading-->
+		<div class="row" id="features">
+			<div class="col-sm-3 feature">
+				<div class="panel">
+					<img src="images/Feature_Image_Women1.jpg" alt="model" class="img-circle img-responsive center-block">
+					<a href="#" target="_blank" class="btn btn-block btn-warning">Anete Puga</a>
+				</div>
+			</div><!-- End Feature-->
+			<div class="col-sm-3 feature">
+				<div class="panel">
+					<img src="images/Feature_Image_Women2.jpg" alt="model" class="img-circle img-responsive">
+					<a href="#" target="_blank" class="btn btn-block btn-warning">Helen Tompson</a>
+				</div>
+			</div><!-- End Feature-->
+
+			<div class="col-sm-3 feature">
+				<div class="panel">
+					<img src="images/Feature_Image_Women3.jpg" alt="model" class="img-circle img-responsive">
+					<a href="#" target="_blank" class="btn btn-block btn-warning">Alessandro Ambra</a>
+				</div>
+			</div><!-- End Feature-->
+
+			<div class="col-sm-3 feature">
+				<div class="panel">
+					<img src="images/Feature_Image_Women4.jpg" alt="model" class="img-circle img-responsive">
+					<a href="#" target="_blank" class="btn btn-block btn-warning">Camala Haddon</a>
+				</div>
+			</div><!-- End Feature-->
+		</div><!--End Features-->
+
+		<div class="row FeaturesHeading">
+			<div class="col-12">
+				<hr>
+				<h2>male model</h2>
+				<hr>
+			</div>
+
+
+		<div class="row" id="features">
+			<div class="col-sm-3 feature">
+				<div class="panel">
+					<img src="images/Feature_Image_Men1.jpg" alt="model" class="img-circle img-responsive">
+					<a href="#" target="_blank" class="btn btn-block btn-warning">Sean'o'pry</a>
+				</div>
+			</div><!-- End Feature-->
+			<div class="col-sm-3 feature">
+				<div class="panel">
+					<img src="images/Feature_Image_Men5.jpg" alt="model" class="img-circle img-responsive">
+					<a href="#" target="_blank" class="btn btn-block btn-warning">David Gandy</a>
+				</div>
+			</div><!-- End Feature-->
+
+			<div class="col-sm-3 feature">
+				<div class="panel">
+					<img src="images/Feature_Image_Men3.jpg" alt="model" class="img-circle img-responsive">
+					<a href="#" target="_blank" class="btn btn-block btn-warning">Abiah Hostvedt</a>
+				</div>
+			</div><!-- End Feature-->
+
+			<div class="col-sm-3 feature">
+				<div class="panel">
+					<img src="images/Feature_Image_Men4.jpg" alt="model" class="img-circle img-responsive">
+					<a href="#" target="_blank" class="btn btn-block btn-warning">Ben Allen</a>
+				</div>
+			</div><!-- End Feature-->
+		</div><!--End Features-->
+	</div>
+	</div><!--End Container-->
+	</div><!--End Feature Container-->
+	<div class="container">
+		<div class="row" id="latestProject">
+			<h2>latest projects</h2>
+			<hr>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<a href="#"><img src="images/latestProject1.jpg" alt="" class="img-responsive"></a>
+				<h4>beauty</h4>
+				<h5>Our recent project is devoted to the notion of beauty and how it is explained by modern fashion industry worldwide.</h5>
+				<div class="text-center"><a href="#" class="btn btn-default btn-normal">more</a></div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<a href="#"><img src="images/latestProject2.jpg" alt="" class="img-responsive"></a>
+				<h4>style</h4>
+				<h5>Though there are numerous differences between clothing style of men and women, something unites them.</h5>
+				<div class="text-center"><a href="#" class="btn btn-default btn-normal">more</a></div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<a href="#"><img src="images/latestProject3.jpg" alt="" class="img-responsive"></a>
+				<h4>inspiration</h4>
+				<h5>Like any other creative person, a fashion designer uses various sources of inspiration to create awesome clothing .</h5>
+				<div class="text-center"><a href="#" class="btn btn-default btn-normal">more</a></div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+				<a href="#"><img src="images/latestProject4.jpg" alt="" class="img-responsive"></a>
+				<h4>models</h4>
+				<h5>Catherine Bell, the most aspiring top model of 2015, as said in the "People" magazine presents a selection of shots.</h5>
+				<div class="text-center"><a href="#" class="btn btn-default btn-normal">more</a></div>
+			</div>
+		</div>
+		<div class="row" id="moreInfo">
+			<hr>
+			<h2>Campaign & Editorial News</h2>
+			<hr>
+			<div class="tabbable">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#tab1" data-toggle="tab">Member</a></li>
+					<li><a href="#tab2" data-toggle="tab">Women</a></li>
+					<li><a href="#tab3" data-toggle="tab">Men</a></li>
+				</ul><!-- End nav-tabs-->
+				<div class="tab-content">
+
+					<div class="tab-pane active img-responsive" id="tab1">
+						<!-- <img src="images/TabPaneImage.jpg" alt=""> -->
+						<center>
+						<a href="#myModalWindow" role="button" class="btn btn-default btn-normal" data-toggle="modal" id="membershipButton">Become a member today. it's free</a>
+						</center>
+						<div class="modal fade" id="myModalWindow">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<button class="close" data-dismiss="modal">&times</button>
+										<h4 class="modal-title">Register to create a NEW theface.com account</h4>
+									</div><!--modal-header-->
+									<div class="modal-body">
+										<h4>theface.com Email Newsletter Subscription:</h4>
+										<p>The newsletter is a free daily email to keep updated on all the latest models.com news. Basic Membership is FREE, some optional site features require an upgrade to a paid membership</p>
+										<a href="" data-toggle="popover" data-placement="top" data-original-title="Paypal" data-content="Credit Card"><button class="btn btn-warning">Upgrade to a paid membership.</button></a>
+										<h4>No junk mails</h4>
+										We respect your privacy and do not share your personal information, for more info see our <a href="#">privacy policy.</a>
+										<hr>
+										<p><small class="muted">IMPORTANT: Make sure your anti-spam filters are allowing emails from support@theface.com and news@theface.com to receive emails from us.</small></p>
+										<form action="#" class="form-horizontal">
+											<div class="form-group">
+												<!-- <lable class="col-lg-3 control-label" for="firstName">First Name</lable> -->
+												<div class="col-lg-6"><input type="text" class="form-control" id="firstName" placeholder="First Name"></div>
+												<!-- <lable class="col-lg-3 control-label" for="lastName">Last Name</lable> -->
+												<div class="col-lg-6"><input type="text" class="form-control" id="lastName" placeholder="Last Name"></div>
+											</div><!--end form-group-->
+											<div class="form-group">
+												<!-- <lable class="col-lg-3 control-label" for="password">Password</lable> -->
+												<div class="col-lg-6"><input type="password" class="form-control" id="password" placeholder="Password"></div>
+												<!-- <lable class="col-lg-3 control-label" for="comfirmPassword">Confirm Password}</lable> -->
+												<div class="col-lg-6"><input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password"></div>
+											</div><!--end form-group-->
+											<div class="form-group">
+												<!-- <lable class="col-lg-3 control-label" for="email">Email</lable> -->
+												<div class="col-lg-6"><input type="email" class="form-control" id="email" placeholder="Email"></div>
+												<!-- <lable class="col-lg-3 control-label" for="inputFile">File Input</lable> -->
+												<div class="col-lg-6"><input type="file" class="form-control" id="inputFile"></div>
+											</div><!--end form-group-->
+											<button type="button" name="button" class="btn btn-success pull-right" id="register">Register</button>
+										</form>
+									</div><!--modal-body-->
+									<div class="modal-footer">
+										<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+										<button type="button" class="btn btn-primary">Save Changes</button>
+									</div>
+								</div><!--modal-content-->
+							</div><!--modal-dialog-->
+						</div><!--end myModalWindow-->
+
+					</div><!--End Tab Pane-->
+					<div class="tab-pane" id="tab2">
+						<h3>Scouting - Women contacted by an Agency</h3>
+						<h4>The top ranked models having reached the pinnacle of the industry are found in the Icons, Supers and Legends lists. Before reaching that level, the future stars of the industry are charted in the Top 50 list below.</h4>
+						<div class="row">
+							<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab2-image">
+								<img src="images/womenModel1.jpg" class="thumbnail pull-left img-responsive" alt="image">
+								<a href="#" class="btn btn-default btn-normal">Alisa Ahmann</a>
+							</div>
+							<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab2-image">
+								<img src="images/womenModel2.jpg" class="thumbnail pull-left img-responsive" alt="image">
+								<a href="#" class="btn btn-default btn-normal">Anna Ewers</a>
+							</div>
+							<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab2-image">
+								<img src="images/womenModel3.jpg" class="thumbnail pull-left img-responsive" alt="image">
+								<a href="#" class="btn btn-default btn-normal">Damaris Goddrie</a>
+							</div>
+							<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab2-image">
+								<img src="images/womenModel4.jpg" class="thumbnail pull-left img-responsive" alt="image">
+								<a href="#" class="btn btn-default btn-normal">Grace Hartzel</a>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab2-image">
+								<img src="images/womenModel5.jpg" class="thumbnail pull-left img-responsive" alt="image">
+								<a href="#" class="btn btn-default btn-normal">Kiki Willems</a>
+							</div>
+							<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab2-image">
+								<img src="images/womenModel6.jpg" class="thumbnail pull-left img-responsive" alt="image">
+								<a href="#" class="btn btn-default btn-normal">Madison Stubbington</a>
+							</div>
+							<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab2-image">
+								<img src="images/womenModel7.jpg" class="thumbnail pull-left img-responsive" alt="image">
+								<a href="#" class="btn btn-default btn-normal">Olympia Campbell</a>
+							</div>
+							<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab2-image">
+								<img src="images/womenModel8.jpg" class="thumbnail pull-left img-responsive" alt="image">
+								<a href="#" class="btn btn-default btn-normal">Riley Montana</a>
+							</div>
+						</div>
+						</div>
+
+
+				<div class="tab-pane" id="tab3">
+					<h3>Scouting - Men contacted by an Agency</h3>
+					<h4>With the backing of blue chip clients, key photographers and legions of admirers, today's top tier male models are at the forefront of fashion. The era of the male supermodel is upon us and the movers and shakers of the moment are proving themselves every bit as essential as their female counterparts</h4>
+					<div class="row">
+						<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab3-image">
+							<img src="images/menModel1.jpg" class="thumbnail pull-left" alt="image">
+							<a href="#" class="btn btn-default btn-normal">Benjamin Eidem</a>
+						</div>
+						<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab3-image">
+							<img src="images/menModel2.jpg" class="thumbnail pull-left" alt="image">
+							<a href="#" class="btn btn-default btn-normal">Benjamin Jarvis</a>
+						</div>
+						<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab3-image">
+							<img src="images/menModel3.jpg" class="thumbnail pull-left" alt="image">
+							<a href="#" class="btn btn-default btn-normal">Daan van der Deen</a>
+						</div>
+						<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab3-image">
+							<img src="images/menModel4.jpg" class="thumbnail pull-left" alt="image">
+							<a href="#" class="btn btn-default btn-normal">Fernando Cabral</a>
+						</div>
+						<hr>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab3-image">
+							<img src="images/menModel5.jpg" class="thumbnail pull-left" alt="image">
+							<a href="#" class="btn btn-default btn-normal">Finnlay Davis</a>
+						</div>
+						<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab3-image">
+							<img src="images/menModel6.jpg" class="thumbnail pull-left" alt="image">
+							<a href="#" class="btn btn-default btn-normal">Gryphon O'Shea</a>
+						</div>
+						<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab3-image">
+							<img src="images/menModel7.jpg" class="thumbnail pull-left" alt="image">
+							<a href="#" class="btn btn-default btn-normal">Janis Ancens</a>
+						</div>
+						<div class="col-lg-3 col-xs-12 col-sm-6 col-md-3 tab3-image">
+							<img src="images/menModel8.jpg" class="thumbnail pull-left" alt="image">
+							<a href="#" class="btn btn-default btn-normal">Rhys Pickering</a>
+						</div>
+					</div>
+			</div><!--End tab-pane-->
+			</div><!--End tab-content-->
+			</div>
+			</div>
+	   <div id="fashionPhotoGallery">
+			<div class="row">
+				<h2>Fashion Photo Gallery</h2>
+				<hr>
+				<h5>In our gallery you can take a look at the popular clothes and footwear made by our fashion designers as well as other experts in fashion from all over the world. All photos are grouped according to sections and topics for easier navigation.</h5>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="#"><img src="images/FashionPhotoGallery1.jpg" alt="" class="img-responsive"></a>
+					<h4>EXCLUSIVE COLLECTIONS</h4>
+					<hr>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="#"><img src="images/FashionPhotoGallery2.jpg" alt="" class="img-responsive"></a>
+					<h4>SPRING 2016 READY-TO-WEAR</h4>
+					<hr>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="#"><img src="images/FashionPhotoGallery3.jpg" alt="" class="img-responsive"></a>
+					<h4>SPLASHES IN STYLE</h4>
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="#"><img src="images/FashionPhotoGallery4.jpg" alt="" class="img-responsive"></a>
+					<h4>BLACK & WHITE</h4>
+					<hr>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="#"><img src="images/FashionPhotoGallery5.jpg" alt="" class="img-responsive"></a>
+					<h4>LATEST FASHION SHOWS</h4>
+					<hr>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+					<a href="#"><img src="images/FashionPhotoGallery6.jpg" alt="" class="img-responsive"></a>
+					<h4>DRESS FOR COLD WEATHER</h4>
+					<hr>
+				</div>
+			</div>
+		 </div>
+		</div><!-- end container-->
+		<!-- <div class="container-fluid">
+			<div class="row" id="googleMap">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15560.209918579068!2d77.6478739979849!3d12.839885352590521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c811f344c07%3A0x1d0caf77fe02554f!2sWipro+Limited!5e0!3m2!1sen!2sin!4v1476231346258" width="100%" height="350px" frameborder="0" style="border:0" allowfullscreen></iframe>
+		 		</div>
+		</div> -->
+
+	<div id="bigCalloutContainer">
+	<div class="container">
+	<div class="row" id="calloutContainer">
+		<div class="col-12">
+			<div class="well">
+				<div class="well well-small visible-sm">			<!-- visible on small devices-->
+					<a href="#" class="btn btn-default btn-large btn-block"><span class="glyphicon glyphicon-phone">Call Us</span></a>
+				</div>
+				<!--End of small well-->
+				<div class="page-header" id="callout-title">
+					<h2><span>About</span> Our website</h2>
+				</div>		<!--end page header-->
+				<div class="row">
+					<div class="col-6">
+						<p class="lead">Our urban and streetwear fashion place is no Old Navy, Banana Republic or a Walmart clothing store, God forbid. We've quickly become the Iowa's and Midwest's biggest online retailers. And it's all thanks to our founder's Janine and her store's team great tastes thanks to their remarkable, spot-on choices of brands that they decided to feature in the store!
+												As to our style range, it varies. While we tend to choose the most daring and hip designs, among the clothes, apparel, shoes, and bags that we sell, sometimes we settle for classic style as well.
+						</p>
+						<a href="#" class="btn btn-default btn-normal">Read more</a>
+					</div>
+					<div class="col-6">
+						<p class="lead">Our urban and streetwear fashion place is no Old Navy, Banana Republic or a Walmart clothing store, God forbid. We've quickly become the Iowa's and Midwest's biggest online retailers. And it's all thanks to our founder's Janine and her store's team great tastes thanks to their remarkable, spot-on choices of brands that they decided to feature in the store!
+												As to our style range, it varies. While we tend to choose the most daring and hip designs, among the clothes, apparel, shoes, and bags that we sell, sometimes we settle for classic style as well.
+						</p>
+					</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	</div>
+	<!--End Callout -->
+	<footer>
+		<div class="social">
+		<div class="container">
+			<div class="row" id="footerSocialHeader">
+				<h3>Connect socialy with The Face</h3>
+			</div>
+			<div class="row" id="footerSocial">
+				<div class="col-sm-3">
+					<center>
+						<a href="#"><span class="fa-stack fa-3x">
+	  				<i class="fa fa-square fa-stack-2x"  style="color:#1da1f2;"></i>
+	  				<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+						</span>
+						</a>
+						<h6>follow on twitter</h6>
+				</center>
+				</div>
+				<div class="col-sm-3">
+					<center>
+					<a href="#"><span class="fa-stack fa-3x">
+	  			<i class="fa fa-square fa-stack-2x" style="color:#7B6DD2"></i>
+	  			<i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+					</span>
+					</a>
+					<h6>like on facebook</h6>
+					</center>
+				</div>
+				<div class="col-sm-3">
+					<center>
+					<a href="#"><span class="fa-stack fa-3x">
+	  			<i class="fa fa-square fa-stack-2x" style="color:#cc181e"></i>
+	  			<i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+					</span>
+					</a>
+					<h6>watch on youtube</h6>
+						</center>
+				</div>
+				<div class="col-sm-3">
+					<center>
+					<a href="#"><span class="fa-stack fa-3x">
+	  			<i class="fa fa-square fa-stack-2x" style="color:#D4507E"></i>
+	  			<i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+					</span>
+					</a>
+					<h6>follow on instagram</h6>
+					</center>
+				</div>
+			</div>
+		</div><!--end container-->
+	</div><!--end social-->
+		<div class="copyright">
+			<div class="container" id="footerHome">
+				<div class="row">
+
+					<div class="col-sm-2"><a href="#"><h3>Home</h3></a></div>
+					<div class="col-sm-2"><a href="#"><h3>About</h3></a></div>
+					<div class="col-sm-2"><a href="#"><h3>Help</h3></a></div>
+					<div class="col-sm-2"><a href="#"><h3>Contact</h3></a></div>
+					<div class="col-sm-2"><a href="#"><h3>Policy</h3></a></div>
+					<div class="col-sm-2"><a href="#"><h3>FAQ</h3></a></div>
+				</div>
+			<p>&copy  2016 Magento Demo Store. All Rights Reserved.</p>
+			</div>
+		</div>
+	</footer><!-- end footer-->
+		<!-- All Javascript at the bottom of the page for faster page loading -->
+
+		<!-- First try for the online version of jQuery-->
+		<script src="http://code.jquery.com/jquery.js"></script>
+
+		<!-- If no online access, fallback to our hardcoded version of jQuery -->
+		<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+
+		<!-- Bootstrap JS -->
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Custom JS -->
+		<script src="includes/js/script.js"></script>
+
+		</body>
+	</html>
